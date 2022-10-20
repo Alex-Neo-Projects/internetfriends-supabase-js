@@ -1,4 +1,4 @@
-import { GoTrueClient } from '@supabase/gotrue-js'
+import { GoTrueClient } from 'internetfriends-gotrue-js'
 import { SupabaseAuthClientOptions } from './types'
 
 export class SupabaseAuthClient extends GoTrueClient {

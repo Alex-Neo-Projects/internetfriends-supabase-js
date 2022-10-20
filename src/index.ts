@@ -1,8 +1,8 @@
 import SupabaseClient from './SupabaseClient'
 import type { GenericSchema, SupabaseClientOptions } from './lib/types'
 
-export * from '@supabase/gotrue-js'
-export type { User as AuthUser, Session as AuthSession } from '@supabase/gotrue-js'
+export * from 'internetfriends-gotrue-js'
+export type { User as AuthUser, Session as AuthSession } from 'internetfriends-gotrue-js'
 export type {
   PostgrestResponse,
   PostgrestSingleResponse,
@@ -35,5 +35,6 @@ export const createClient = <
   supabaseKey: string,
   options?: SupabaseClientOptions<SchemaName>
 ): SupabaseClient<Database, SchemaName, Schema> => {
+  console.log('running internet-friends supabase-js')
   return new SupabaseClient(supabaseUrl, supabaseKey, options)
 }

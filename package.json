@@ -1,16 +1,11 @@
 {
-  "name": "@supabase/supabase-js",
-  "version": "0.0.0-automated",
-  "description": "Isomorphic Javascript client for Supabase",
-  "keywords": [
-    "javascript",
-    "typescript",
-    "supabase"
-  ],
-  "homepage": "https://github.com/supabase/supabase-js",
-  "bugs": "https://github.com/supabase/supabase-js/issues",
+  "name": "internetfriends-supabase-js",
+  "version": "2.0.0",
+  "description": "had to fix a bug, using this on my app now",
+  "homepage": "https://github.com/Alex-Neo-Projects/internetfriends-supabase-js",
+  "bugs": "https://github.com/Alex-Neo-Projects/internetfriends-supabase-js/issues",
   "license": "MIT",
-  "author": "Supabase",
+  "author": "internetfriends",
   "files": [
     "dist",
     "src"
@@ -19,7 +14,7 @@
   "module": "dist/module/index.js",
   "types": "dist/module/index.d.ts",
   "sideEffects": false,
-  "repository": "supabase/supabase-js",
+  "repository": "Alex-Neo-Projects/internetfriends-supabase-js",
   "scripts": {
     "clean": "rimraf dist docs",
     "coverage": "jest --runInBand --coverage",
@@ -38,11 +33,11 @@
   },
   "dependencies": {
     "@supabase/functions-js": "^2.0.0",
-    "@supabase/gotrue-js": "^2.1.0",
     "@supabase/postgrest-js": "^1.1.0",
     "@supabase/realtime-js": "^2.1.0",
     "@supabase/storage-js": "^2.0.0",
-    "cross-fetch": "^3.1.5"
+    "cross-fetch": "^3.1.5",
+    "internetfriends-gotrue-js": "/Users/hack/Local/gotrue-js"
   },
   "devDependencies": {
     "@types/jest": "^26.0.13",
